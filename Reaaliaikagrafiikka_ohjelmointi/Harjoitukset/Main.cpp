@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-
+#include <math.h>
+#include <algorithm>
 
 template<class T> class myvector_t
 {
@@ -91,6 +92,20 @@ public:
 
 		return v;
 	}
+
+	// Skaalari
+	myvector_t operator*(const int n) const
+	{
+		myvector_t v(GetSize());
+		for (int i = 0; i < GetSize(); i++)
+		{
+			v.items[i] = items[i] * n;
+		}
+
+		return v;
+	}
+
+
 };
 
 
@@ -122,9 +137,17 @@ int main()
 	std::cout << "Min" << std::endl;
 	minVec.Print();
 	std::cout << std::endl;
-	std::cout << "Income" << std::endl;
+	std::cout << "Multiply" << std::endl;
 	multVec.Print();
 	std::cout << std::endl;
+
+	// Käytetään multiVec:ä skaalarina
+	multVec = vec2 * 2;
+	std::cout << "Scalar" << std::endl;
+	multVec.Print();
+	std::cout << std::endl;
+	
+
 	//---------------------------------------------------------------------
 
 
