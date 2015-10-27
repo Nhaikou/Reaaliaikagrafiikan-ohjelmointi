@@ -1,17 +1,17 @@
-﻿Build started 27.10.2015 14:10:06.
-     1>Project "c:\Users\NikoKin\documents\visual studio 2013\Projects\Reaaliaikagrafiikka_ohjelmointi\Harjoitukset\Harjoitukset.vcxproj" on node 2 (Build target(s)).
+﻿Build started 27.10.2015 14:43:43.
+     1>Project "C:\Users\NikoKin\Documents\GitHub\Reaaliaikagrafiikan-ohjelmointi\Reaaliaikagrafiikka_ohjelmointi\Harjoitukset\Harjoitukset.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-     1>c:\users\nikokin\documents\visual studio 2013\projects\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(14): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-                 c:\users\nikokin\documents\visual studio 2013\projects\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(9) : while compiling class template member function 'myvector_t<int>::myvector_t(int)'
-                 c:\users\nikokin\documents\visual studio 2013\projects\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(66) : see reference to function template instantiation 'myvector_t<int>::myvector_t(int)' being compiled
-                 c:\users\nikokin\documents\visual studio 2013\projects\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(66) : see reference to class template instantiation 'myvector_t<int>' being compiled
+     1>c:\users\nikokin\documents\github\reaaliaikagrafiikan-ohjelmointi\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(14): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\nikokin\documents\github\reaaliaikagrafiikan-ohjelmointi\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(9) : while compiling class template member function 'myvector_t<int>::myvector_t(int)'
+                 c:\users\nikokin\documents\github\reaaliaikagrafiikan-ohjelmointi\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(100) : see reference to function template instantiation 'myvector_t<int>::myvector_t(int)' being compiled
+                 c:\users\nikokin\documents\github\reaaliaikagrafiikan-ohjelmointi\reaaliaikagrafiikka_ohjelmointi\harjoitukset\main.cpp(100) : see reference to class template instantiation 'myvector_t<int>' being compiled
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\nikokin\documents\visual studio 2013\Projects\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\nikokin\documents\visual studio 2013\Projects\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\nikokin\documents\visual studio 2013\Projects\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.lib" /MACHINE:X86 Debug\Main.obj
-         Harjoitukset.vcxproj -> c:\users\nikokin\documents\visual studio 2013\Projects\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.exe
-     1>Done Building Project "c:\Users\NikoKin\documents\visual studio 2013\Projects\Reaaliaikagrafiikka_ohjelmointi\Harjoitukset\Harjoitukset.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\NikoKin\Documents\GitHub\Reaaliaikagrafiikan-ohjelmointi\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\NikoKin\Documents\GitHub\Reaaliaikagrafiikan-ohjelmointi\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\NikoKin\Documents\GitHub\Reaaliaikagrafiikan-ohjelmointi\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.lib" /MACHINE:X86 Debug\Main.obj
+         Harjoitukset.vcxproj -> C:\Users\NikoKin\Documents\GitHub\Reaaliaikagrafiikan-ohjelmointi\Reaaliaikagrafiikka_ohjelmointi\Debug\Harjoitukset.exe
+     1>Done Building Project "C:\Users\NikoKin\Documents\GitHub\Reaaliaikagrafiikan-ohjelmointi\Reaaliaikagrafiikka_ohjelmointi\Harjoitukset\Harjoitukset.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.65
+Time Elapsed 00:00:00.64
